@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Marck+Script&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* article {font-family: 'Lobster', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'RocknRoll One', sans-serif;
+font-family: 'Dancing Script', cursive;} */
+* {
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+header {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #5c5c5c;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
+
+.logo {
+  width: 30%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+  background-image: url(../img/сакура1.png);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0;
+  background-size: 100%;
+}
+
+#exelent {
+  font-size: 100px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  padding: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.servises img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgb(193, 193, 193);
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.phone {
+  width: 60%;
+  font-size: 24px;
+  text-align: left;
+  margin: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu li {
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.servises {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+
+}
+
+main  {background-image: url(../img/сакура5.png);
+  background-repeat: repeat-y;
+  background-position: right 0;
+  background-size: 100px 400px;
+  background-position: right 0;
+}
+
+footer {
+  background-color: #5c5c5c;
+  color: #fff;
+  background-image: url(../img/сакура.jpg);
+  font-family: 'Lobster', cursive;
+}
