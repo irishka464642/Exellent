@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV-hs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUJ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUehs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUOhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U-hs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-U1Ug.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rg-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rs-VQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9_oU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/marckscript/v11/nwpTtK2oNgBA3Or78gapdwuCzw.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #d2e6ef;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  margin-bottom: 20px;
+  background-image: url(../images/сакура5.png);
+  background-repeat: no-repeat;
+  background-position: right 0;
+}
+#name {
+  font-size: 34px;
+}
+ul,
+ol {
+  list-style: none;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0;
+  margin-left: 0;
+}
+.logo {
+  background-image: url(../images/сакура1.png);
+  background-position: left -20px top -10px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Marck Script";
+  color: #ffffff;
+  font-size: 150px;
+  position: absolute;
+  text-shadow: 1px 1px 2px gray;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  background-color: #d2e6ee;
+}
+li {
+  padding: 10px 20px;
+}
+.contact li {
+  display: block;
+  text-align: center;
+}
+.servises {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: space-between;
+}
+.cart {
+  margin: 10px 20px;
+  text-align: center;
+}
+h4 {
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 30px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 25%;
+  background-color: #d76274;
+  color: #ffffff;
+  text-align: center;
+}
+.about {
+  background-color: #d2e6ee;
+  padding: 0;
+  vertical-align: middle;
+  background-image: url(../images/сакура2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+#whyUs li::before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: 30px;
+  background-image: url("../images/list-style.jpg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: -40px;
+}
+.stock {
+  background-color: #d2e6ee;
+  font-size: 24px;
+}
+.bold {
+  font-size: 48px;
+  padding: 10px 20px;
+}
+input {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+div {
+  margin: 10px 0;
+}
+footer {
+  background-color: #d2e6ef;
+}

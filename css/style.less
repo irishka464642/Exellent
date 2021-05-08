@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,600;1,700;1,800');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Marck+Script');
+@font-main: 'Open Sans', sans-serif;
+@font-secondary: 'Playfair Display', serif;
+@font-logo: "Marck Script";
+@list-style: none;
+@txt-cntr: center;
+@color: black;
+@color-btn: #fff;
+@bg-btn: #d76274;
+@padding-box: 10px 20px;
+@bg-reap: no-repeat;
+@margin: 20px;
+@bg-image: url(../images/bacground.jpg);
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d2e6ef;
+  font-family: @font-main;
+  color: @color;
+  margin-bottom: @margin;
+  background-image: url(../images/сакура5.png);
+  background-repeat: @bg-reap;
+  background-position: right 0;
+}
+
+#name {
+  font-size: 34px;
+}
+
+ul, ol {
+  list-style: @list-style;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.logo {
+  background-image: url(../images/сакура1.png);
+  background-position: left -20px top -10px;
+  background-repeat: @bg-reap;
+  background-size: 100%;
+  font-family: @font-logo;
+  color: @color-btn;
+  font-size: 150px;
+  position: absolute;
+  text-shadow: 1px 1px 2px gray;
+}
+
+a {
+  text-decoration: none;
+  color: @color;
+}
+
+a:hover {
+  background-color: #d2e6ee;
+}
+
+li {
+padding: @padding-box;
+}
+
+.contact li{
+  display: block;
+  text-align: @txt-cntr;
+}
+
+.servises {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: space-between;
+}
+
+.cart {
+  margin: @padding-box;
+  text-align: @txt-cntr;
+
+}
+
+h4 {
+  display: block;
+  text-align: @txt-cntr;
+  font-family: @font-main;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  text-align: @txt-cntr;
+  font-family: @font-main;
+  font-weight: bold;
+}
+
+button {
+  padding: @padding-box;
+  border: 1px solid red;
+  border-radius: 25%;
+  background-color: @bg-btn;
+  color: @color-btn;
+  text-align: @txt-cntr;
+}
+
+.about {
+  background-color: #d2e6ee;
+  padding: 0;
+  vertical-align: middle;
+  background-image: url(../images/сакура2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+#whyUs li::before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: 30px;
+  background-image: url("../images/list-style.jpg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: -40px;
+}
+
+.stock {
+  background-color: #d2e6ee;
+  font-size: 24px;
+}
+
+.bold {
+  font-size: 48px;
+  padding: @padding-box;
+}
+
+input {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+div {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #d2e6ef;
+}
