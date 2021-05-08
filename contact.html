@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="images\favicon-16x16.png" type="image/png">
+  <title>Exellent</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      Exellent
+    </div>
+      <div class="container">
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html" class="text-dark">Главная</a></li>
+            <li><a href="servises.html" class="text-dark">Услуги</a></li>
+            <li><a href="contact.html" class="text-dark">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="row">
+
+          <div class="col-12 col-md-12 col-lg-5 col-xl-5 offset-5 contact">
+            <ul>
+              <li><a href="tel:+380992220905" class="text-dark">+38 (099) 222 09 05</a></li>
+              <li><a href="tel:+380679220905" class="text-dark">+38 (067) 922 09 05</a></li>
+              <li>ПН-СБ: 9:00 - 19:00</li>
+            </ul>
+          </div>
+        </div>
+
+
+      <div class="row">
+        <div class="col-6 mt-5 text">
+          <h4 class="mt-2">Создаем красоту,</h4>
+          <p>учитывая индивидуальные потребности наших клиентов</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWindow">
+              Онлайн запись
+          </button>
+          <!-- блочный элемент-контейнер с классом modal и уникальным идентификатором modalWindow, который связан с кнопкой.  -->
+          <!--  aria-hidden="true" будет скрывать декоративные элементы, значки глификона от экранных читателей, которые не имеют значимого произношения -->
+          <div class="modal fade" id="modalWindow" data-backdrop="static" data-keyboard="true" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" >Онлайн запись</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <form class="" action="index.html" method="post">
+                            <label>
+                              <input type="text" name="name" value="" placeholder="Имя">
+                              <input type="text" name="phone" value="" placeholder="Телефон">
+                            </label>
+                            <div>
+                              <label>
+                                <div class="">Выберите услугу</div>
+                                <select id="servis" name="servis">
+                                  <option>Косметология</option>
+                                  <option>Уход за ногтями</option>
+                                  <option>Уход за волосами</option>
+                                  <option>Депиляция</option>
+                                  <option>Массаж</option>
+                                  <option>Макияж</option>
+                                </select>
+                              </label>
+                            </div>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                          <button type="button" class="btn btn-primary">Отправить</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-6 image">
+          <img src="images\header.png" alt="">
+        </div>
+    </div>
+
+  </div>
+
+  </header>
+
+  <main>
+    <div class="container row">
+      <div class="col-12 col-md-12 col-lg-6 col-xl-6 carta">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.9817959499774!2d37.586134114848974!3d48.74404451670648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df971a238f892f%3A0x15fae574adcc3c6c!2sExcellent!5e0!3m2!1sru!2sua!4v1620447992543!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-12 col-md-12 col-lg-6 col-xl-6 text-left contact">
+          <ul>
+            <li>+38 (099) 222 09 05</li>
+            <li>+38 (067) 922 09 05</li>
+            <li>Академическая, 30</li>
+            <li>График работы: ПН-СБ с 9:00 до 19:00</li>
+            <li>Выходной: Воскресенье</li>
+          </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html"  class="text-dark">Главная</a></li>
+          <li><a href="servises.html"  class="text-dark">Услуги</a></li>
+          <li><a href="#"  class="text-dark">Акции</a></li>
+          <li><a href="contact.html"  class="text-dark">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="">
+        <small>@Copywright 2020</small>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
